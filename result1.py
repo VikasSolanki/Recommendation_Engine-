@@ -57,6 +57,7 @@ import pickle
 pickle.dump(dict(view_clusters), open('view_graph.p', 'wb'))
 pickle.dump(dict(buy_clusters), open('buy_graph.p', 'wb'))
 
+#Nodes and links creation for Neo4j
 
 from neo4j.v1 import GraphDatabase,basic_auth
 import pickle
